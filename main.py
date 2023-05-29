@@ -12,12 +12,8 @@ class Viewbot:
 
     def ui(self):
         os.system('cls && title Youtube Viewbot ^| https://github.com/Fadlis77777' if os.name == "nt" else 'clear') 
-        print(f"""{Fore.RED}                                                           
-         __ __         _       _          _____ _           _       _     
-        |  |  |___ _ _| |_ _ _| |_ ___   |  |  |_|___ _ _ _| |_ ___| |_   
-        |_   _| . | | |  _| | | . | -_|  |  |  | | -_| | | | . | . |  _|  
-          |_| |___|___|_| |___|___|___|   \___/|_|___|_____|___|___|_|    
-        {Fore.RESET}""")
+        print(f"""{Fore.RED}                                              
+        
 
     def open_url(self, ua, sleep_time, proxy):
         self.options = webdriver.ChromeOptions()
